@@ -1,10 +1,23 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Icon from '@/components/atoms/Icon/Icon'
+import { TbClockHour2 } from "react-icons/tb";
+import SectionLayout from '@/components/molecules/SectionLayout/SectionLayout';
+import Layout from '@/components/organisms/Layout/Layout';
+
+const item = {
+  path:"path",
+  title:"Mon - Sat 9:00 - 18:00",
+  subtitle: "Sunday Closed",
+  icon: <TbClockHour2 />
+}
 
 export default function Home() {
+  
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <Layout/>
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -89,7 +102,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
