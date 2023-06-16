@@ -1,6 +1,16 @@
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
+
 }
+
+.container p{
+    color: white;
+}
+
+/* .letras{
+    color: white; 
+} */
