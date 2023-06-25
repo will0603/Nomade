@@ -1,6 +1,5 @@
 
 import styles from './Icon.module.css'
-import Image from "next/image";
 
 const Icon = (props) => {
     return(

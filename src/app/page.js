@@ -1,10 +1,12 @@
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
-import Icon from '@/components/atoms/Icon/Icon'
 import { TbClockHour2 } from "react-icons/tb";
-import SectionLayout from '@/components/molecules/SectionLayout/SectionLayout';
-import Layout from '@/components/organisms/Layout/Layout';
+import Contacto from '@/components/organisms/Contacto/Contacto';
+import Principal from '@/components/templates/Principal/Principal';
+import { createContext } from 'react'
 
+const Context = createContext();
 const item = {
   path:"path",
   title:"Mon - Sat 9:00 - 18:00",
@@ -16,7 +18,7 @@ export default function Home() {
   
   return (
     <main className={styles.main}>
-      <Layout/>
+      <Principal />
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

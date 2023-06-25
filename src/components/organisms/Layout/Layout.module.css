@@ -1,14 +1,36 @@
-.optionsSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
+.box {
+    max-width: 100%;
 }
 
-.container{
-    width: 100%;
+.root {
+    flex-grow: 1;
+  }
+.menuButton {
+    margin-right: 20px0;
+  }
+.title {
+    flex-grow: 1;
+  }
+
+.container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #091242;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    
+  }
+
+.paper {
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    flex: 1 0 auto;
+    margin: 10px
+  }
+.button {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+}
+.toolbar {
+    background-color: rgba(255, 255, 255, 0.2);
 }

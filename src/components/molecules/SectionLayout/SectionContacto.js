@@ -1,7 +1,7 @@
 import Icon from "@/components/atoms/Icon/Icon";
-import styles from './SectionLayout.module.css'
+import styles from './SectionContacto.module.css'
 
-const SectionLayout = (props) => {
+const SectionContacto = (props) => {
     return(
         <div className={styles.container}>
             <Icon image={props.icon}/>
@@ -13,4 +13,4 @@ const SectionLayout = (props) => {
     );
 };
 
-export default SectionLayout;
+export default SectionContacto;

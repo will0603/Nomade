@@ -1,0 +1,13 @@
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.price{
+    position: absolute;
+    padding: 10px;
+    background-color: red;
+    width: 100px;
+}
